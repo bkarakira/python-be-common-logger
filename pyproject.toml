@@ -12,6 +12,3 @@ python = "^3.12"
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
-
-[tool.poetry.package]
-logger = { include = ["__init__.py"] }
