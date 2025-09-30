@@ -5,6 +5,7 @@ description = "Reusable logger utility"
 authors = ["Bilal <you@example.com>"]
 readme = "README.md"
 license = "MIT"
+logger = ["*"]
 
 [tool.poetry.dependencies]
 python = "^3.12"
