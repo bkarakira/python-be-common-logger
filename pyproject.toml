@@ -5,7 +5,6 @@ description = "Reusable logger utility"
 authors = ["Bilal <you@example.com>"]
 readme = "README.md"
 license = "MIT"
-logger = ["*"]
 
 [tool.poetry.dependencies]
 python = "^3.12"
@@ -13,3 +12,6 @@ python = "^3.12"
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.package]
+logger = { include = ["__init__.py"] }
