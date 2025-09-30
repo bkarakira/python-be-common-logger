@@ -14,6 +14,6 @@ def get_logger(name: Optional[str] = None, level: int = logging.INFO) -> logging
   handler.setFormatter(formatter)
   logger.addHandler(handler)
   
-  print("version 2")
+  print("version 0.2.0")
 
   return logger
