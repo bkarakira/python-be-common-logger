@@ -1,7 +1,7 @@
 [tool.poetry]
 name = "logger"
-version = "0.1.0"
-description = "Reusable logger utility"
+version = "0.2.0"
+description = "Reusable logger utility version 2"
 authors = ["Bilal <you@example.com>"]
 readme = "README.md"
 license = "MIT"
