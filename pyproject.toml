@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "logger"
+version = "0.1.0"
+description = "Reusable logger utility"
+authors = ["Bilal <you@example.com>"]
+readme = "README.md"
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
